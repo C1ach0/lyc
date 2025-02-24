@@ -1,4 +1,6 @@
-# Portfolio d'Maxence Bessi (askip)
+# Portfolio d'Maxence Bessi
+
+> Ou version plus propre sur [Maxence Bessi](https://maxence-bessi.com)
 
 ### Objectifs : 
 ##### 1. Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
