@@ -1,203 +1,228 @@
 <!doctype html>
 <html lang="fr">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Portfolio Maxence Bessi">
-        <meta name="author" content="Maxence Bessi">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    
-        <title>Portfolio d'Maxence Bessi (BTS SIO 2024-2026)</title>
-        <link rel="icon" href="favicon.ico">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
-              rel="stylesheet">
-        <link href="css/cv.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
-            <div class="container">
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
-                    <span class="sr-only">Navigation raccourcie</span>☰
-                </button>
-                <a class="navbar-brand" href="#">Mon portfolio</a>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link"><span class="fa fa-home"></span> Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="cv.html" class="nav-link"><span class="fa fa-id-badge"></span> CV</a>
-                        </li>
-                        <li class="active dropdown nav-item">
-                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button">
-                                <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation" class="dropdown-header dropdown-item">En autonomie</li>
-                                <li role="presentation" class="dropdown-item"><a role="menuitem" href="projets/maxence-bessi-com.html">Nouveau portfolio</a></li>
-                                <li role="presentation" class="dropdown-item"><a role="menuitem" href="projets/discord-reflect.html">Handler DiscordJS</a></li>
-                                <li role="presentation" class="dropdown-item"><a role="menuitem" href="projets/ptero-bot.html">Bot DJS Pterodactyl</a></li>
-                                <li role="presentation" class="dropdown-item"><a role="menuitem" href="projets/minecraft-plugin-handler.html">Plugin Minecraft</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="mailto:contact@maxence-bessi.com" class="nav-link"><span class="fa fa-envelope"></span> Me contacter</a></li>
-                    </ul>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio Maxence Bessi">
+    <meta name="author" content="Maxence Bessi">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Portfolio d'Maxence Bessi (BTS SIO 2024-2026)</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/cv.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+        <div class="container">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar">
+                <span class="sr-only">Navigation raccourcie</span>☰
+            </button>
+            <a class="navbar-brand" href="#">Mon portfolio</a>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><span class="fa fa-home"></span> Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cv.html" class="nav-link active"><span class="fa fa-id-badge"></span> CV</a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" role="button">
+                            <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-item"><a role="menuitem"
+                                    href="projets/maxence-bessi-com.html">Nouveau portfolio</a></li>
+                            <li role="presentation" class="dropdown-item"><a role="menuitem"
+                                    href="projets/discord-reflect.html">Handler DiscordJS</a></li>
+                            <li role="presentation" class="dropdown-item"><a role="menuitem"
+                                    href="projets/ptero-bot.html">Bot DJS Pterodactyl</a></li>
+                            <li role="presentation" class="dropdown-item"><a role="menuitem"
+                                    href="projets/minecraft-plugin-handler.html">Plugin Minecraft</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="mailto:contact@maxence-bessi.com" class="nav-link"><span
+                                class="fa fa-envelope"></span> Me contacter</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron"><!-- Emplacement pour le contenu principal de la page -->
+        <div class="container">
+            <div class="row cadreCV">
+                <div id="cv-entete" class="text-center">
+                    <div id="cv-photo">
+                        <img style="object-fit: cover; object-position: top;"
+                            src="https://maxence-bessi.com/_nuxt/avatar.DRWr4d1R.png" alt="Ma photo d'identité">
+                    </div>
+                    <div id="cv-intro">
+                        <h1>Maxence, Développeur Full Stack</h1>
+                        <a style="font-size: large; font-weight: 600; color: red;" href="https://maxence-bessi.com"
+                            target="_blank">maxence-bessi.com</a>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <div class="jumbotron"><!-- Emplacement pour le contenu principal de la page -->
-            <div class="container">
-                <div class="row cadreCV">
-                    <div id="cv-entete" class="text-center">
-                        <div id="cv-photo">
-                            <img style="object-fit: cover; object-position: top;" src="https://maxence-bessi.com/_nuxt/avatar.DRWr4d1R.png" alt="Ma photo d'identité">
-                        </div>
-                        <div id="cv-intro">
-                            <h1>Maxence, Développeur Full Stack</h1>
-                            <a style="font-size: large; font-weight: 600; color: red;" href="https://maxence-bessi.com" target="_blank">maxence-bessi.com</a>
-                        </div>
+            <div class="row cadreCV">
+                <div class="col-12 col-md-7">
+                    <!-- Partie gauche -->
+                    <div class="rubrique clearfix">
+                        <p>Jeune homme passionné par le développement, j'applique aujourd'hui mon expertise au produit,
+                            alliant performance, fonctionnalité et innovation. Mon objectif est de créer des
+                            applications modernes et originales.</p>
                     </div>
-                </div>
-                <div class="row cadreCV">
-                    <div class="col-12 col-md-7">
-                        <!-- Partie gauche -->
-                        <div class="rubrique clearfix">
-                            <p>Jeune homme passionné par le développement, j'applique aujourd'hui mon expertise au produit, alliant performance, fonctionnalité et innovation. Mon objectif est de créer des applications modernes et originales.</p>
-                        </div>
-                        <div class="rubrique clearfix">
-                            <h2><span class="fa fa-graduation-cap"></span> Parcours scolaire</h2>
-                            <ul id="parcours" class="clearfix">
-                                <li>
-                                    <div class="date float-left">
-                                        <span class="fa fa-stop-circle"></span>&nbsp;2024
-                                    </div>
-                                    <div class="details float-right">
-                                        <h3>BTS SIO option SLAM (en cours...)</h3>
-                                        <p>Brevet de Technicien Supérieur "Services Informatiques aux 
-                                            Organisations", option "Solutions Logicielles et Applications 
-                                            Métiers"</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="date float-left">
-                                        <span class="fa fa-stop-circle"></span>&nbsp;2023
-                                    </div>
-                                    <div class="details float-right">
-                                        <h3>Concepteur Développeur d'Application</h3>
-                                        <p>Centre de formation pour avoir le titre professionnelle CDA.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="rubrique clearfix">
-                            <h2><span class="fa fa-briefcase"></span> Expériences professionnelles</h2>
-                            <div class="experience clearfix">
-                                <div class="col-3">
-                                    <div class="lieu">ENSM-BPN</div>
-                                    <div class="date">2024 (en cours...)</div>
+                    <div class="rubrique clearfix">
+                        <h2><span class="fa fa-graduation-cap"></span> Parcours scolaire</h2>
+                        <ul id="parcours" class="clearfix">
+                            <li>
+                                <div class="date float-left">
+                                    <span class="fa fa-stop-circle"></span>&nbsp;2024
                                 </div>
-                                <div class="col-9">
-                                    <div class="profession">Developpement Web</div>
-                                    <div class="details">Mise à jour et refonte de l'application web pour l'école utiliser par les instructeurs et les RH
-                                    </div>
+                                <div class="details float-right">
+                                    <h3>BTS SIO option SLAM (en cours...)</h3>
+                                    <p>Brevet de Technicien Supérieur "Services Informatiques aux
+                                        Organisations", option "Solutions Logicielles et Applications
+                                        Métiers"</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date float-left">
+                                    <span class="fa fa-stop-circle"></span>&nbsp;2023
+                                </div>
+                                <div class="details float-right">
+                                    <h3>Concepteur Développeur d'Application</h3>
+                                    <p>Centre de formation pour avoir le titre professionnelle CDA.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="rubrique clearfix">
+                        <h2><span class="fa fa-briefcase"></span> Expériences professionnelles</h2>
+                        <div class="experience clearfix">
+                            <div class="col-3">
+                                <div class="lieu">ENSM-BPN</div>
+                                <div class="date">2024 (en cours...)</div>
+                            </div>
+                            <div class="col-9">
+                                <div class="profession">Developpement Web</div>
+                                <div class="details">Mise à jour et refonte de l'application web pour l'école utiliser
+                                    par les instructeurs et les RH
                                 </div>
                             </div>
-                            <div class="experience clearfix">
-                                <div class="col-3">
-                                    <div class="lieu">Aesis Conseil</div>
-                                    <div class="date">2023 (8 sem.)</div>
-                                </div>
-                                <div class="col-9">
-                                    <div class="profession">Développement Web</div>
-                                    <div class="details">Mise à jour d'une application web pour les bibliothèques avec limite de temps.
-                                    </div>
+                        </div>
+                        <div class="experience clearfix">
+                            <div class="col-3">
+                                <div class="lieu">Aesis Conseil</div>
+                                <div class="date">2023 (8 sem.)</div>
+                            </div>
+                            <div class="col-9">
+                                <div class="profession">Développement Web</div>
+                                <div class="details">Mise à jour d'une application web pour les bibliothèques avec
+                                    limite de temps.
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5">
-                        <!-- Partie droite -->
-                        <div class="rubrique clearfix">
-                            <h2><span class="fa fa-user"></span> Me contacter</h2>
-                            <div class="meContacter">
-                                <div class="details float-left">
-                                    <a href="mailto:contact@maxence-bessi.com?subject=Je ne répondrais pas" title="Mail de Amélia Pilou"><img class="contact-icon" src="../images/cv/mail-dreamstale47.png" alt="Icone de mail"> GMail.com</a></div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <!-- Partie droite -->
+                    <div class="rubrique clearfix">
+                        <h2><span class="fa fa-user"></span> Me contacter</h2>
+                        <div class="meContacter">
+                            <div class="details float-left">
+                                <a href="mailto:contact@maxence-bessi.com?subject=Je ne répondrais pas"
+                                    title="Mail de Amélia Pilou"><img class="contact-icon"
+                                        src="images/cv/mail-dreamstale47.png" alt="Icone de mail"> GMail.com</a>
                             </div>
-                            <div class="meContacter">
-                                <div class="details float-left"> <a href="https://linkedin.com/in/maxence-bessi" title="Lien vers le profil LinkedIn de Amélia Pilou">
-                                        <img class="contact-icon" src="../images/cv/linkedin-dreamstale45.png" alt="Icone de LinkedIn"> LinkedIn</a>
-                                </div>
+                        </div>
+                        <div class="meContacter">
+                            <div class="details float-left"> <a href="https://linkedin.com/in/maxence-bessi"
+                                    title="Lien vers le profil LinkedIn de Amélia Pilou">
+                                    <img class="contact-icon" src="images/cv/linkedin-dreamstale45.png"
+                                        alt="Icone de LinkedIn"> LinkedIn</a>
                             </div>
-                            <div class="meContacter">
-                                <div class="details float-left"> <a href="https://github.com/C1ach0" title="Lien vers le profil GitHub d'Amélia Pilou">
-                                        <img class="contact-icon" src="../images/cv/github2-dreamstale35.png" alt="Icone de GitHub"> GitHub</a>
-                                </div>
+                        </div>
+                        <div class="meContacter">
+                            <div class="details float-left"> <a href="https://github.com/C1ach0"
+                                    title="Lien vers le profil GitHub d'Amélia Pilou">
+                                    <img class="contact-icon" src="images/cv/github2-dreamstale35.png"
+                                        alt="Icone de GitHub"> GitHub</a>
                             </div>
-                            <div id="langues" class="rubrique clearfix">
-                                <h2><span class="fa fa-flag"></span> Langue</h2>
-                                <div class="container">
-                                    <div class="langue">Français</div>
-                                    <div class="niveau">
-                                        <span class="badge badge-dark">A1</span>
-                                        <span class="badge badge-dark">A2</span>
-                                        <span class="badge badge-dark">B1</span>
-                                        <span class="badge badge-dark">B2</span>
-                                        <span class="badge badge-dark">C1</span>
-                                        <span class="badge badge-success">C2</span>
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="langue">Anglais</div>
-                                    <div class="niveau">
-                                        <span class="badge badge-dark">A1</span>
-                                        <span class="badge badge-dark">A2</span>
-                                        <span class="badge badge-success">B1</span>
-                                        <span class="badge badge-dark">B2</span>
-                                        <span class="badge badge-dark">C1</span>
-                                        <span class="badge badge-dark">C2</span>
-                                    </div>
+                        </div>
+                        <div id="langues" class="rubrique clearfix">
+                            <h2><span class="fa fa-flag"></span> Langue</h2>
+                            <div class="container">
+                                <div class="langue">Français</div>
+                                <div class="niveau">
+                                    <span class="badge badge-dark">A1</span>
+                                    <span class="badge badge-dark">A2</span>
+                                    <span class="badge badge-dark">B1</span>
+                                    <span class="badge badge-dark">B2</span>
+                                    <span class="badge badge-dark">C1</span>
+                                    <span class="badge badge-success">C2</span>
                                 </div>
                             </div>
-                            <div id="competences" class="rubrique clearfix">
-                                <h2><span class="fa fa-wrench"></span> Compétences</h2>
-                                <div class="container">
-                                    <div class="libelle">Intégration web</div>
-                                    <div class="classement classement5"></div>
-                                </div>
-                                <div class="container">
-                                    <div class="libelle">Dév. web</div>
-                                    <div class="classement classement4"></div>
-                                </div>
-                                <div class="container">
-                                    <div class="libelle">Administration</div>
-                                    <div class="classement classement3"></div>
+                            <div class="container">
+                                <div class="langue">Anglais</div>
+                                <div class="niveau">
+                                    <span class="badge badge-dark">A1</span>
+                                    <span class="badge badge-dark">A2</span>
+                                    <span class="badge badge-success">B1</span>
+                                    <span class="badge badge-dark">B2</span>
+                                    <span class="badge badge-dark">C1</span>
+                                    <span class="badge badge-dark">C2</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="rubrique clearfix">
-                            <h2><span class="fa fa-music"></span> Passions</h2>
-                            <div class="passion"> <span class="fa fa-heart"></span> Jeux Vidéos</div>
-                            <div class="passion"> <span class="fa fa-heart"></span> Dév. BackEnd</div>
-                            <div class="passion"> <span class="fa fa-heart"></span> Musique</div>
-                            <div class="passion"> <span class="fa fa-heart"></span> Anime/Manga</div>
+                        <div id="competences" class="rubrique clearfix">
+                            <h2><span class="fa fa-wrench"></span> Compétences</h2>
+                            <div class="container">
+                                <div class="libelle">Intégration web</div>
+                                <div class="classement classement5"></div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle">Dév. web</div>
+                                <div class="classement classement4"></div>
+                            </div>
+                            <div class="container">
+                                <div class="libelle">Administration</div>
+                                <div class="classement classement3"></div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="rubrique clearfix">
+                        <h2><span class="fa fa-music"></span> Passions</h2>
+                        <div class="passion"> <span class="fa fa-heart"></span> Jeux Vidéos</div>
+                        <div class="passion"> <span class="fa fa-heart"></span> Dév. BackEnd</div>
+                        <div class="passion"> <span class="fa fa-heart"></span> Musique</div>
+                        <div class="passion"> <span class="fa fa-heart"></span> Anime/Manga</div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container">
-                <hr>
-                <a class="text-center" id="copyright" href="https://maxence-bessi.com">© Maxence Bessi 2025</a>
-            </div>
-        </footer>
+    </div>
+    <footer>
+        <div class="container">
+            <hr>
+            <a class="text-center" id="copyright" href="https://maxence-bessi.com">© Maxence Bessi 2025</a>
+        </div>
+    </footer>
 
-        <!-- Optional JavaScript -->
-        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    </body>
+    <!-- Optional JavaScript -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
